@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
   # Build Complete AQI Dashboard
 
@@ -9,3 +10,7 @@
 
   Run `npm run dev` to start the development server.
   
+=======
+# CarbonAir-AQI-Monitoring-System
+CarbonAir is an AI‑powered Air Quality Monitoring Web Application built using React, TypeScript, Tailwind, and Open‑Meteo API. It visualizes real‑time AQI, pollutant levels, and provides a 7‑day forecast with interactive charts, city comparison, global rankings, and customizable alert system — all inside a modern responsive dashboard.
+>>>>>>> 70fcd8a2e3936f97c4005a5080074e055f9f4a59
