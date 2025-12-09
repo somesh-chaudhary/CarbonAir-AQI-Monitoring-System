@@ -1,16 +1,44 @@
-<<<<<<< HEAD
+# 🌍 CarbonAir – Real-Time Air Quality Monitoring Dashboard
 
-  # Build Complete AQI Dashboard
+CarbonAir is a modern web-based Air Quality Index (AQI) monitoring system built using **React + TypeScript + Tailwind**.  
+It fetches real-time air quality and pollutant data via **Open-Meteo API**, visualizes it through interactive charts, and provides a clean dashboard to track air pollution city-wise.
 
-  This is a code bundle for Build Complete AQI Dashboard. The original project is available at https://www.figma.com/design/xmUOHBbvTMQLiQ0Kcn1y0X/Build-Complete-AQI-Dashboard.
+---
 
-  ## Running the code
+## 🚀 Features
 
-  Run `npm i` to install the dependencies.
+- Real-time AQI monitoring
+- Pollutant breakdown (PM2.5, PM10, NO₂, SO₂, CO, O₃)
+- 📈 7‑Day air quality forecast using Recharts
+- 🌍 Global city ranking & comparison
+- 🔔 Custom alert notification system
+- ⚡ Responsive UI (Mobile + Desktop)
+- Modern dark UI with Tailwind + Shadcn components
 
-  Run `npm run dev` to start the development server.
-  
-=======
-# CarbonAir-AQI-Monitoring-System
-CarbonAir is an AI‑powered Air Quality Monitoring Web Application built using React, TypeScript, Tailwind, and Open‑Meteo API. It visualizes real‑time AQI, pollutant levels, and provides a 7‑day forecast with interactive charts, city comparison, global rankings, and customizable alert system — all inside a modern responsive dashboard.
->>>>>>> 70fcd8a2e3936f97c4005a5080074e055f9f4a59
+---
+
+## 🏗 Tech Stack
+
+| Layer | Technology |
+|------|------------|
+| Frontend | React 18, TypeScript, Vite |
+| Styling | Tailwind CSS, Shadcn UI |
+| Charts | Recharts |
+| Icons | Lucide React |
+| Data Source | Open‑Meteo API |
+| Notifications | Sonner |
+
+---
+
+## 📂 Project Structure
+
+```bash
+CarbonAir/
+├── src/
+│   ├── components/
+│   ├── lib/api.ts       # AQI API calls
+│   ├── App.tsx          # Main router + layout
+│   ├── assets/
+│   └── styles/
+├── public/
+└── package.json
