@@ -59,9 +59,7 @@ git clone https://github.com/YOUR-USERNAME/CarbonAir.git
 cd CarbonAir
 npm install
 npm run dev
-```
-
-Open in browser 👉 **http://localhost:5173/**
+---
 
 ---
 
