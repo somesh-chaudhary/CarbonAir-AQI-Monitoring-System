@@ -1,36 +1,38 @@
 # 🌍 CarbonAir – Real‑Time Air Quality Monitoring Dashboard
 
-CarbonAir is a modern AI‑ready Air Quality Index (AQI) monitoring system built using **React + TypeScript + Tailwind CSS**.  
-It fetches live air quality and pollutant data using the **Open‑Meteo API** and visualizes it through a responsive dashboard with charts, city comparison, global rankings and alert system.
+CarbonAir is a modern **AI‑ready Air Quality Index (AQI) monitoring system** built using **React + TypeScript + Tailwind CSS**.  
+It fetches real‑time environmental data from the **Open‑Meteo Air Quality API**, analyzes pollutant parameters and displays insights through an elegant dashboard with charts, city rankings, comparison, alerts & more.
 
 ---
 
-## 🚀 Features
-- Real‑time AQI monitoring  
-- Pollutant breakdown (PM2.5, PM10, NO₂, SO₂, CO, O₃)  
-- 7‑Day forecast visualization with Recharts  
-- Global city ranking + comparison view  
-- AQI alerts & notification system  
-- Fast & responsive UI for mobile & desktop  
-- Modern UI styled with Tailwind + Shadcn  
-- Modular code structure for scalability  
+## 🚀 Key Features
+
+- 🌫 Real‑time AQI monitoring
+- 🧪 Pollutants: PM2.5, PM10, CO, NO₂, SO₂, O₃
+- 📈 7‑day AQI forecast visualization (Recharts)
+- 🌍 Global city ranking + comparison
+- 🔔 Alert system based on AQI threshold
+- 📊 Trend visualization & analytics
+- ⚡ Responsive UI (Mobile + Desktop)
+- 🎨 Tailwind + Shadcn based modern interface
+- 🧩 Clean modular component structure
 
 ---
 
 ## 🏗 Tech Stack
 
-| Area | Technology |
-|------|------------|
-| Frontend | React 18 + TypeScript + Vite |
-| Styling | Tailwind CSS + Shadcn UI |
-| Charts | Recharts |
-| API | Open‑Meteo Air Quality API |
-| Notifications | Sonner |
-| Icons | Lucide React |
+| Category | Technology |
+|--------|------------|
+| Frontend | **React + TypeScript + Vite** |
+| UI Styling | **Tailwind CSS + Shadcn UI** |
+| Charts | **Recharts** |
+| API Source | **Open‑Meteo Air Quality API** |
+| Notifications | **Sonner** |
+| Icons | **Lucide React** |
 
 ---
 
-## 📂 Folder Structure
+## 📂 Project Structure
 
 ```
 CarbonAir/
@@ -52,57 +54,56 @@ CarbonAir/
 
 ---
 
-## 🛠 Installation & Setup
+## 🛠 Installation & Run
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/CarbonAir.git
 cd CarbonAir
 npm install
-npm run dev
----
-
----
-
-## 🔄 How It Works
-1. User selects or searches a city  
-2. `api.ts` fetches AQI & pollutant data from Open‑Meteo  
-3. Dashboard updates instantly with components  
-4. ForecastChart shows next 7‑day AQI trend  
-5. Rankings list cities based on pollution  
-6. Alerts notify when AQI crosses a limit  
-
----
-
-## 📸 Screenshots (Add When Ready)
+npm run dev        # launches development server
 ```
-/screenshots/dashboard.png
-/screenshots/aqi-overview.png
-/screenshots/forecast.png
-/screenshots/rankings.png
-```
+
+> The application will start in your browser automatically via Vite’s dev server.  
+(You may deploy later to Vercel/Netlify when production build is needed.)
+
+---
+
+## 🔄 Application Workflow
+
+1. User searches/selects a city  
+2. API fetch retrieves AQI + pollutant data  
+3. Dashboard updates dynamically  
+4. ForecastChart visualizes 7‑day trend  
+5. Rankings sort cities based on pollution  
+6. Alerts notify when AQI crosses limit  
 
 ---
 
 ## 🔥 Future Enhancements
-- AI based AQI prediction model (LSTM / Random Forest)  
-- Health recommendation system  
-- Login + cloud database storage  
-- Export PDF / CSV reports  
-- Global heatmap + pollution hotspots  
+
+- AI‑based AQI prediction model (LSTM / Random Forest)
+- Health impact advisory system
+- Login system + cloud connected backend
+- Data export as PDF / CSV
+- Live Geo heatmap for pollution hotspots
+- Push notifications for severe AQI alerts
 
 ---
 
-## 🤝 Contributing
-Contributions are welcome!  
-Fork this repo & submit a PR 🚀  
+## 🤝 Contribution
+
+Contributions, feature ideas & PRs are welcome.  
+If you like this project, ⭐ the repo — it motivates development!
 
 ---
 
 ## 📄 License
-MIT License — free for open use  
+
+MIT License — open for modifications & usage.
 
 ---
 
 ## 👤 Developer
+
 **Somesh Chaudhary**  
 CarbonAir — *Breathe Smarter, Live Better* 🌿
